@@ -305,6 +305,18 @@ chmod +x wifite.py
 ./wifite.py
 fi
 
+if [ $OK = 17 ] || [ $OK = 17 ]
+then
+clear
+apt update && apt upgrade
+pkg install bash
+pkg install git
+git clone https://github.com/MrR4VEN/RavenSpam
+mv RavenSpam $HOME
+cd $HOME/RavenSpam
+sh RavenSpam.sh
+fi
+
 if [ $ok = 18 ] || [ $ok = 18 ]
 then
 clear
