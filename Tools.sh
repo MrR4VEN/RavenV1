@@ -308,6 +308,7 @@ fi
 if [ $ok = 17 ] || [ $ok = 17 ]
 then
 clear
+figlet "MrRaven" | lolcat
 apt update && apt upgrade
 pkg install bash
 pkg install git
