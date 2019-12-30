@@ -305,7 +305,7 @@ chmod +x wifite.py
 ./wifite.py
 fi
 
-if [ $OK = 17 ] || [ $OK = 17 ]
+if [ $ok = 17 ] || [ $ok = 17 ]
 then
 clear
 apt update && apt upgrade
